@@ -1,0 +1,14 @@
+.container{
+    background: black;
+    display: flex;
+    color: azure;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body h1{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 100px; */
+}
