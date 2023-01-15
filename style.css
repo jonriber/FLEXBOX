@@ -1,14 +1,80 @@
+.header{
+    top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: whitesmoke;
+    width: 100%;
+}
+
 .container{
     background: black;
     display: flex;
     color: azure;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-radius: 3px;
+    border-color: black;
+}
+.title{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.items{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: red;
+    bottom: 0;
+    border-radius: 3px;
+}
+
+.footer .details{
+    display: flex;
+    justify-content: flex-end;
+}
+body {
+    background-color: aqua;
+}
 body h1{
     display: flex;
     justify-content: center;
     /* padding-left: 100px; */
+}
+
+/* these are the flex properties  */
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 1em;
+}
+
+.flexItem{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    flex: 1;
+    align-items: baseline;
+}
+
+header h3{
+    color: black;
 }
